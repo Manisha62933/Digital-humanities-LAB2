@@ -1,0 +1,29 @@
+﻿name,category,source,chunk_id,context,verification
+মাদারগাছ,Flora,Ichamati,335,A tree mentioned in a childhood memory; its fruit is described as sweet.,Needs OCR and source-text verification
+আম,Flora,Ichamati,335,Fruit mentioned in the passage.,Candidate identified
+বনকলমি ফুল,Flora,Ichamati,366,Flowers growing near water in the bushes.,Candidate identified
+ঘাসবন,Flora,Ichamati,366,Grassland mentioned in the passage.,Candidate identified
+বাঁশঝাড়,Flora,Ichamati,366,A dense bamboo grove.,Candidate identified
+হিজল গাছ,Flora,Nilkantha_Pakhir_Khoje,88,A hijal tree visible from a particular location.,Candidate identified
+বেতপাতা,Flora,Nilkantha_Pakhir_Khoje,7,Leaves hanging in a room.,Candidate identified
+মটকিলা গাছ,Flora,Nilkantha_Pakhir_Khoje,7,A branch placed at the doorway; OCR spelling needs checking.,Needs OCR and source-text verification
+বুনো তেউড়ি ফুল,Flora,Aranyak,276,Wild flowers blooming in the forest.,Candidate identified
+ঘেঁটুবন,Flora,Ichamati,420,Flowering vegetation in an open field.,Needs OCR and source-text verification
+অর্জুন,Flora,Aranyak,151,Plant name appearing in a forest description.,Needs OCR and source-text verification
+পিয়াল,Flora,Aranyak,151,Plant name appearing in a forest description.,Needs OCR and source-text verification
+বাঘ,Fauna,Ichamati,335,A wild animal mentioned in a forest.,Candidate identified
+সাপ,Fauna,Ichamati,335,A wild animal mentioned in a forest.,Candidate identified
+বসন্তবৌরি পাখি,Fauna,Ichamati,366,A bird described by its yellow-coloured body.,OCR spelling requires verification
+পাখি,Fauna,Ichamati,309,A bird shown to a child.,Generic animal reference
+প্রজাপতি,Fauna,Nilkantha_Pakhir_Khoje,244,A butterfly caught for a character.,Candidate identified
+শিঙি মাছ,Fauna,Nilkantha_Pakhir_Khoje,244,A fish being prepared for cooking.,Candidate identified
+মাছ,Fauna,Ichamati,461,Fish and fishing practices are discussed.,Generic animal reference
+হরিণ,Fauna,Aranyak,198,A deer mentioned in a passage containing bird references.,Candidate identified
+ভালুক,Fauna,Aranyak,151,A wild animal mentioned in a forest description.,Candidate identified
+শ্যামা,Fauna,Aranyak,198,Bird name appearing in a list of birds.,OCR spelling requires verification
+শালিক,Fauna,Aranyak,198,Bird name appearing in a list of birds.,Candidate identified
+ঘুঘু,Fauna,Aranyak,198,Bird name appearing in a list of birds.,Candidate identified
+হরিয়াল,Fauna,Aranyak,198,Bird name appearing in a list of birds.,Candidate identified
+চিল,Fauna,Aranyak,198,Bird name appearing in a list of birds.,Candidate identified
+বক,Fauna,Aranyak,198,Bird name appearing in a list of birds.,Candidate identified
+রাঙাহাঁস,Fauna,Aranyak,198,Bird name appearing in a list of birds.,OCR spelling requires verification
