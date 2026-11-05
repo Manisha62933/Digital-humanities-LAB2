@@ -1,54 +1,56 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bengali Digital Humanities Project</title>
+    <title>Bengali Digital Humanities Lab</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f6f9;
+            color: #333;
             margin: 0;
             padding: 0;
-            color: #333;
+            line-height: 1.6;
         }
 
         header {
-            background-color: #253858;
+            background-color: #263b5e;
             color: white;
             text-align: center;
-            padding: 35px 20px;
+            padding: 30px 15px;
         }
 
         header h1 {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         main {
-            max-width: 850px;
-            margin: 35px auto;
+            max-width: 900px;
+            margin: 30px auto;
             padding: 20px;
         }
 
         section {
-            background: white;
-            padding: 25px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            background-color: white;
+            padding: 22px;
+            margin-bottom: 22px;
+            border-radius: 8px;
+            box-shadow: 0 2px 7px rgba(0, 0, 0, 0.08);
         }
 
         h2 {
-            color: #253858;
+            color: #263b5e;
         }
 
         a {
             color: #1769aa;
-            text-decoration: none;
             font-weight: bold;
+            text-decoration: none;
         }
 
         a:hover {
@@ -56,96 +58,118 @@
         }
 
         .status {
-            color: #777;
-            font-size: 14px;
+            color: #247a45;
+            font-weight: bold;
+            margin-top: 12px;
         }
 
         footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #253858;
+            background-color: #263b5e;
             color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Bengali Digital Humanities Project</h1>
-    <p>Monsoon Semester 2026</p>
-    <p>Digital Humanities and Social Sciences</p>
-</header>
+    <header>
+        <h1>Bengali Digital Humanities Lab</h1>
+        <p>Digital Humanities – Monsoon Semester 2026</p>
+        <p>NLP, RAG, Synthetic Reading and LLM Skills</p>
+    </header>
 
-<main>
+    <main>
 
-    <section>
-        <h2>About the Project</h2>
-        <p>
-            This webpage presents the assignments completed as part
-            of the Digital Humanities coursework. The project explores
-            the application of Natural Language Processing, Artificial
-            Intelligence, and Digital Humanities methods to Bengali
-            language and literary texts.
-        </p>
-    </section>
+        <section>
+            <h2>About the Project</h2>
 
-    <section>
-        <h2>1. NLP – Bengali Stop Words</h2>
+            <p>
+                This website presents the practical components of
+                the Digital Humanities assignment undertaken using
+                Bengali language resources and literary texts.
+                It explores Natural Language Processing,
+                Retrieval-Augmented Generation, literary analysis
+                and Large Language Model applications.
+            </p>
+        </section>
 
-        <p>
-            This project contains a sample collection of Bengali
-            stop words for Natural Language Processing.
-            These words can be used during text preprocessing
-            and linguistic analysis.
-        </p>
+        <section>
+            <h2>1. NLP: Bengali Stop Words</h2>
 
-        <p>
-            <a href="https://github.com/Manisha62933/Digital-humanities-LAB2/blob/main/bengali_stopwords.py"
-               target="_blank">
+            <p>
+                This component presents a Bengali stop-word list
+                prepared for Natural Language Processing tasks.
+            </p>
+
+            <a href="bengali_stopwords.py">
                 View Bengali Stop Words Python File
             </a>
-        </p>
 
-        <p class="status">Status: Completed</p>
-    </section>
+            <p class="status">Status: Completed</p>
+        </section>
 
-    <section>
-        <h2>2. Extraction of Indian Cultural Elements Using RAG</h2>
-        <a href="flora_fauna.py">Component 2: RAG-based Flora and Fauna Extraction</a>
-        <p>
-            This section will present the extraction of Indian
-            flora and fauna from Bengali literary texts using
-            Retrieval-Augmented Generation (RAG).
-        </p>
-        <p class="status">Status: Upcoming</p>
-    </section>
+        <section>
+            <h2>2. Extraction of Indian Cultural Elements Using RAG</h2>
 
-    <section>
-        <h2>3. Synthetic Reading</h2>
-        <p>
-            This section will present the analysis of a Bengali
-            short story through partial reading, AI-based theme
-            extraction, visualisation, and literary interpretation.
-        </p>
-        <p class="status">Status: Upcoming</p>
-    </section>
+            <p>
+                This component presents the preliminary extraction
+                of flora and fauna references from Bengali literary
+                texts using Retrieval-Augmented Generation (RAG).
+                The literary corpus includes Ichamati,
+                Nilkantha Pakhir Khoje and Aranyak.
+            </p>
 
-    <section>
-        <h2>4. Creating a Skill for an LLM</h2>
-        <p>
-            This section will contain a reusable skill developed
-            for a Large Language Model using Markdown instructions.
-        </p>
-        <p class="status">Status: Upcoming</p>
-    </section>
+            <a href="flora_fauna.py">
+                View Flora and Fauna Extraction Python File
+            </a>
 
-</main>
+            <br><br>
 
-<footer>
-    <p>Digital Humanities Assignment | Monsoon Semester 2026</p>
-</footer>
+            <a href="bengali_flora_fauna.json">
+                View Structured Extraction (JSON)
+            </a>
+
+            <br><br>
+
+            <a href="bengali_flora_fauna.csv">
+                View Extraction Dataset (CSV)
+            </a>
+
+            <p class="status">
+                Status: Preliminary Extraction Completed
+            </p>
+        </section>
+
+        <section>
+            <h2>3. Synthetic Reading</h2>
+
+            <p>
+                This section will present the synthetic reading
+                experiment using a selected Bengali literary text.
+            </p>
+
+            <p class="status">Status: Upcoming</p>
+        </section>
+
+        <section>
+            <h2>4. Creating a Skill for an LLM</h2>
+
+            <p>
+                This section will present the development of a
+                task-specific skill for a Large Language Model.
+            </p>
+
+            <p class="status">Status: Upcoming</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Bengali Digital Humanities Lab | 2026</p>
+    </footer>
 
 </body>
 </html>
-<a href="flora_fauna.py">Component 2: RAG-based Flora and Fauna Extraction</a>
